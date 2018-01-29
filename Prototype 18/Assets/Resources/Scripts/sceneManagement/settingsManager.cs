@@ -15,8 +15,12 @@ public class settingsManager : MonoBehaviour {
 		
 	}
 
+    //SCENE MANAGEMENT [START]
+
     public void loadTitleScene()
     {
         SceneManager.LoadScene(0);
     }
+
+    //SCENE MANAGEMENT [END]
 }

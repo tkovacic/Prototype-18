@@ -15,8 +15,17 @@ public class loginManager : MonoBehaviour {
 		
 	}
 
+    //SCENE MANAGEMENT [START]
+
     public void loadTitleScene()
     {
         SceneManager.LoadScene(0);
+    }
+
+    //SCENE MANAGEMENT [END]
+
+    public void redirectSignUp()
+    {
+        Application.OpenURL("http://localhost:8000");
     }
 }
